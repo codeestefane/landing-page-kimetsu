@@ -1,0 +1,105 @@
+#avaliacoes {
+    height: fit-content;
+    background: #A89999;
+}
+
+#avaliacoes div.container {
+    width: 90%;
+    height: fit-content;
+    
+    margin: 0 auto;
+}
+
+#avaliacoes div.container h1 {
+    font-size: 2.5rem;
+    padding: 120px 0 0 0;
+    text-align: center;
+    color: #4b2d2d;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5); 
+}
+
+#avaliacoes div.comentario-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#avaliacoes div.container div.comentario {
+    width: 300px;
+    text-align: justify;
+    height: fit-content;
+    background: #D1C5C5;
+    border-radius: 40px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+}
+
+#avaliacoes div.container div.comentario:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.6);
+    background:  rgba(75,45,45, 1);
+}
+
+#avaliacoes div.container div.comentario:hover .comentario-user span+span {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#avaliacoes div.container div.comentario img {
+    width: 60px;
+    padding: 10px;
+}
+
+#avaliacoes div.container div.comentario p {
+    width: 100%;
+    text-align: justify;
+    padding: 10px;
+}
+
+#avaliacoes div.container div.comentario .comentario-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+#avaliacoes div.container div.comentario .comentario-user span+span{
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+#avaliacoes .comentario-usuario {
+    display: block;
+    clear: both;
+}
+
+@media all and (min-width: 320px) and (max-width: 720px) {
+    #avaliacoes div.container h1 {
+        font-size: 1.8rem;
+    }
+
+    #avaliacoes div.comentario-box {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #avaliacoes div.container h1 {
+        padding-top: 40px;
+    }
+
+    #avaliacoes div.container div.comentario {
+        width: fit-content;
+        font-size: 1rem;
+    }
+}

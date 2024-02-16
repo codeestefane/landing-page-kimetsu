@@ -1,0 +1,202 @@
+#inicio {
+    height: 100vh;
+}
+
+#inicio div.conteudo {
+    /* box model */
+    width: 100%;
+    height: 100vh;
+}
+
+#inicio div.conteudo div.texto-apresentacao {
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: left;
+
+    width: 70%;
+    
+    /* box model */
+    height: fit-content;
+    
+    /* posição */
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+#inicio div.conteudo div.texto-apresentacao h1, #inicio div.texto-apresentacao h2 {
+    /* estilo */
+    color: var(--marrom-kimetsu);
+    text-shadow: 2px 1px rgba(255, 255, 255, 0.2); 
+    font-family: var(--font-padrao);
+
+    /* box model */
+    padding: 0.4rem 0;
+
+    /* posição */
+    z-index: 2;
+}
+
+#inicio div.conteudo div.texto-apresentacao h1 {
+    font-size: 3rem;
+}
+
+#inicio div.conteudo div.texto-apresentacao h2 {
+    font-size: 2.5rem;
+}
+
+#inicio div.conteudo img {
+    width: 30%;
+
+    /* posição */
+    z-index: 2;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+}
+
+#inicio div.conteudo button {
+    /* dimensões */
+    width: 150px;
+    height: 150px;
+
+    /* estilo */
+    border-radius: 50%;
+    border: none;
+    background:rgb(238, 238, 237);
+    color: rgba(75,45,45, 0.7);
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-padrao);
+    text-align: center;
+
+    /* posição */
+    position: absolute;
+    top: 60%;
+    left: calc(30% - 75px);
+    z-index: 2;
+
+    transition: all 600ms ease-in-out;
+}
+
+#inicio div.conteudo button::before, .conteudo button::after {
+    content: '';
+    display: block;
+
+    /* estilo */
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px 2px rgba(238, 238, 237, 0.3);
+    border: 2px solid rgb(238, 238, 237);
+
+    /* posição */
+    position: absolute;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    top: -20px;
+
+    animation: animarBotaoInicio 1.5s linear infinite;
+}
+
+#inicio div.conteudo button::after {
+    animation-delay: .5s;
+}
+
+#inicio div.conteudo button:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#inicio div.background-one {
+    width: 30%;
+    height: 100vh;
+
+    /* posição */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+
+    background:  #D1C5C5;
+}
+
+#inicio div.background-two {
+    width: 70%;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 30%;
+    bottom: 0;
+    z-index: 1;
+
+    background: #A89999;
+
+}
+
+@media all and (min-width: 320px) and (max-width: 960px) {
+    #inicio div.conteudo img {
+        width: 60%; 
+        max-width: 300px;
+        right: 0.05%;
+    }
+
+    #inicio div.conteudo div.texto-apresentacao {
+        top: 20%;
+        left: 0;
+        padding-left: 6%;
+        z-index: 4;
+    }
+
+    #inicio div.conteudo div.texto-apresentacao h1{
+        font-size: 2rem;
+    }
+    
+    #inicio div.conteudo div.texto-apresentacao h2 {
+        font-size: 1.2rem;
+    }
+
+    #inicio div.conteudo button {
+        /* dimensões */
+        width: 70px;
+        height: 70px;
+
+        top: calc(80% - 35px);
+        z-index: 2;
+        left: calc(30% - 35px);
+
+        transition: all 600ms ease-in-out;
+    }
+}
+
+
+
+@media all and (min-width: 960px) and (max-width: 1600px) {
+    #inicio div.conteudo div.texto-apresentacao h1{
+        font-size: 2.2rem;
+    }
+    
+    #inicio div.conteudo div.texto-apresentacao h2 {
+        font-size: 1.4rem;
+    }
+
+    #inicio div.conteudo div.texto-apresentacao {
+        width: 50%;
+    }
+
+    #inicio div.conteudo button {
+        /* dimensões */
+        width: 100px;
+        height: 100px;
+
+        top: 70%;
+        z-index: 2;
+        left: calc(30% - 50px);
+
+        transition: all 600ms ease-in-out;
+    }
+
+}

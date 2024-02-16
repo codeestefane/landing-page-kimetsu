@@ -1,0 +1,408 @@
+#personagens {
+    height: fit-content;;
+    background: #D1C5C5;
+}
+
+#personagens h1{
+    /* box-model */
+    padding: 120px 0 0 0;
+
+    /* estilo */
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--marrom-kimetsu);
+    text-shadow: 2px 1px var(--text-shadow-kimetsu); 
+}
+
+#personagens div.cards {
+    width: 90%;
+
+    margin: 0 auto;
+    padding: 50px 0;
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#personagens div.resumo {
+    /* dimensões */
+    width: 100%;
+    height: 100%;
+    
+    padding: 10px;
+    
+    /* posição */
+    position: relative;
+    top: 350px;
+    
+    text-align: justify;
+    
+    /* estilo */
+    color: #D1C5C5;
+    background: var(--marrom-kimetsu);
+    
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition: all 600ms ease-in-out;
+}
+
+#personagens div.resumo h2, #personagens div.resumo p {
+    margin: 0 0 30px 0;
+}
+
+#personagens div.resumo p.copyright {
+    position: relative;
+    
+    margin-bottom: 0;
+    
+    font-size: 0.7rem;
+    color:  #D1C5C5;
+    
+    transition: all 600ms ease-in-out;
+}
+
+#personagens div.resumo a {
+    text-decoration: none;
+}
+
+#personagens div.resumo p.copyright:hover {
+    transform: scale(1.2);
+}
+
+#personagens div.card-tanjiro:hover,
+#personagens div.card-nezuko:hover,
+#personagens div.card-zenitsu:hover,
+#personagens div.card-inosuke:hover,
+#personagens div.card-kanao:hover,
+#personagens div.card-murata:hover,
+#personagens div.card-urokodaki:hover,
+#personagens div.card-tamayo:hover,
+#personagens div.card-yushiro:hover,
+#personagens div.card-muzan:hover,
+#personagens div.card-shinobu:hover,
+#personagens div.card-tomioka:hover,
+#personagens div.card-mitsuri:hover,
+#personagens div.card-rengoku:hover,
+#personagens div.card-uzui:hover,
+#personagens div.card-himejima:hover,
+#personagens div.card-iguro:hover,
+#personagens div.card-shinazugawa:hover,
+#personagens div.card-kagaya:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+#personagens div.card-tanjiro:hover div.resumo,
+#personagens div.card-nezuko:hover div.resumo,
+#personagens div.card-zenitsu:hover div.resumo,
+#personagens div.card-inosuke:hover div.resumo,
+#personagens div.card-kanao:hover div.resumo,
+#personagens div.card-murata:hover div.resumo,
+#personagens div.card-urokodaki:hover div.resumo,
+#personagens div.card-tamayo:hover div.resumo,
+#personagens div.card-yushiro:hover div.resumo,
+#personagens div.card-muzan:hover div.resumo,
+#personagens div.card-shinobu:hover div.resumo,
+#personagens div.card-tomioka:hover div.resumo,
+#personagens div.card-mitsuri:hover div.resumo,
+#personagens div.card-rengoku:hover div.resumo,
+#personagens div.card-uzui:hover div.resumo,
+#personagens div.card-himejima:hover div.resumo,
+#personagens div.card-iguro:hover div.resumo,
+#personagens div.card-shinazugawa:hover div.resumo,
+#personagens div.card-kagaya:hover div.resumo {
+    top: 0;
+}
+
+#personagens div.card-tanjiro {
+    /* dimensões */
+    width: 300px;
+    height: 400px;
+
+    background-image: url(https://kanto.legiaodosherois.com.br/w1200-q95-k1/wp-content/uploads/2021/06/legiao_2fvBSa0CZm5i.jpg.webp);
+    background-size: cover;
+    background-position: 40%;
+
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 2px 2px 16px var(--marrom-kimetsu);
+    margin: 40px;
+
+    transition: all 600ms ease-in-out;
+}
+
+#personagens div.card-nezuko {
+    /* dimensões */
+    width: 300px;
+    height: 400px;
+
+    background-image: url(https://kanto.legiaodosherois.com.br/w1200-q95-k1/wp-content/uploads/2021/06/legiao_atjLmscD9r5E.jpg.webp);
+    background-size: cover;
+    background-position: 48%;
+
+    border-radius: 40px;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    overflow: hidden;
+    margin: 40px;
+    
+    transition: all 600ms ease-in-out;
+}
+
+#personagens div.card-zenitsu {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w1200-q95-k1/wp-content/uploads/2021/06/legiao_u48KJ_cBWoHx.jpg.webp);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-inosuke {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_WrM125jhuKfD.jpg.webp);
+    background-size: cover;
+    background-position: 90%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);;
+    margin: 40px;
+}
+
+#personagens div.card-kanao {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_Ov3ZGQ5s07CV.jpg.webp);
+    background-size: cover;
+    background-position: 65%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-murata {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_rTKLBt5iGAn1.jpg.webp);
+    background-size: cover;
+    background-position: 40%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-urokodaki {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_mF9DE5LjCeqy.jpg.webp);
+    background-size: cover;
+    background-position: 70%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-tamayo {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_hSnL46Fe0Ndj.jpg.webp);
+    background-size: cover;
+    background-position: 12%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-yushiro {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_zBY9CbaoxdKL.jpg.webp);
+    background-size: cover;
+    background-position: 82%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-muzan {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_oIHDvV7LCixk.jpg.webp);
+    background-size: cover;
+    background-position: 70%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-shinobu {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_1oRCXPzUY76y.jpg.webp);
+    background-size: cover;
+    background-position: 60%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-tomioka {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_5B4f60kjCI7y.jpg.webp);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-mitsuri {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_R2kqlV43rzOx.jpg.webp);
+    background-size: cover;
+    background-position: 45%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-rengoku {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_6mTOnFc5tyQ9.jpg.webp);
+    background-size: cover;
+    background-position: 60%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-uzui {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_0XRf5BCN9p7z.jpg.webp);
+    background-size: cover;
+    background-position: 68%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-himejima {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_Nj_Cq6hxXkgm.jpg.webp);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-iguro {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_WMSaCv09cTjm.jpg.webp);
+    background-size: cover;
+    background-position: 42%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-shinazugawa {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_ACoEw7_DlX1F.jpg.webp);
+    background-size: cover;
+    background-position: 60%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-kagaya {
+    width: 300px;
+    height: 400px;
+    background-image: url(https://kanto.legiaodosherois.com.br/w750-q95-k1/wp-content/uploads/2021/06/legiao_sFDSV4bjwx_3.jpg.webp);
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: all 600ms ease-in-out;
+    box-shadow: 2px 2px 16px rgba(75,45,45, 1);
+    margin: 40px;
+}
+
+#personagens div.card-shinazugawa h2 {
+    font-size: 1.3rem;
+}
+
+@media all and (min-width: 320px) and (max-width: 720px) {
+    #personagens h1 {
+        font-size: 1.8rem;
+    }
+
+    #personagens div.resumo {
+        font-size: 1rem;
+    }
+
+    #personagens div.cards {
+        width: 100%;
+    }
+
+    #personagens div.card-shinazugawa h2, #personagens div.card-kagaya h2, #personagens div.card-zenitsu h2 {
+        font-size: 1rem;
+    }
+
+    #personagens div.card-kagaya {
+        margin-bottom: 40px;
+    }
+    
+    #personagens div.resumo {
+        font-size: 1rem;
+    }
+}

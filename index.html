@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demon Slayer</title>
+
+        <link rel="shortcut icon" href="img/demon-slayer-icon.png">
+
+        <link rel="stylesheet" href="estilo/geral.css">
+        <link rel="stylesheet" href="estilo/header.css">
+        <link rel="stylesheet" href="estilo/inicio.css">
+        <link rel="stylesheet" href="estilo/sinopse.css">
+        <link rel="stylesheet" href="estilo/personagens.css">
+        <link rel="stylesheet" href="estilo/avaliacoes.css">
+        <link rel="stylesheet" href="estilo/comentario.css">
+        <link rel="stylesheet" href="estilo/footer.css">
+    </head>
+    
+    <body>
+        <header>
+            <!-- como esse checkbox não será utilizado em um form, se faz necessário usar aria-label para indicar o propósito desse checkbox para pessoas com deficiência -->
+            <input type="checkbox" class="close-menu" id="close-menu" aria-label="close-menu">
+            <!-- sempre que um label estiver vazio, se faz necessário usar o atributo title -->
+            <label for="close-menu" title="close-menu" class="close-menu-label"></label>
+
+            <aside>
+                <nav class="navbar-heading">
+                    <div class="navbar-componentes">
+                        <img src="img/demon-slayer-icon.png" alt="ícone de Demon Slayer">
+                        
+                        <ul onclick="getElementById('close-menu').checked = false;">
+                            <li><a href="#inicio">INÍCIO</a></li>
+                            <li><a href="#sinopse">SINOPSE</a></li>
+                            <li><a href="#personagens">PERSONAGENS</a></li>
+                            <li><a href="#avaliacoes">AVALIAÇÕES</a></li>
+                            <li><a href="#comentario">COMENTE</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </aside>
+        </header>
+        
+        <main>
+            <section id="inicio">
+                <div class="conteudo">
+                    <div class="texto-apresentacao">
+                        <h2>OLÁ,</h2>
+                        <h1>SOU TANJIRO KAMADO,</h1>
+                        <h2>O PROTAGONISTA DE KIMETSU NO YAIBA!</h2>
+                    </div>
+                    <a href="https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba" target="_blank">
+                        <button>
+                            PLAY
+                        </button>
+                    </a>
+                    
+                        
+                    <img src="img/tanjiro.png" alt="personagem Tanjiro">
+                </div>
+            
+                <div class="background-one">
+                </div>
+                
+                <div class="background-two">
+                </div>
+            </section>
+        
+            <section id="sinopse">
+                <div class="bg-kimetsu">
+                    <div class="bg-opacidade">
+                        <div class="conteudo">
+                            <div class="poster">
+                                <img src="https://wallpapers.com/images/high/demon-slayer-pictures-h6wb5vr2gzjqu0g6.webp" alt="pôster de Kimetsu no Yaiba">
+                            </div>
+                                <div class="texto">
+                                <h1>SINOPSE</h1>
+                                <p>Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="personagens">
+                <div class="content">
+                    <h1>PERSONAGENS</h1>
+                    <div class="cards">
+                        <div class="card-tanjiro">
+                            <div class="resumo">
+                                <h2>Tanjiro Kamado</h2> 
+                                <p>Filho mais velho de uma extensa família massacrada por um oni, Tanjiro Kamado é o protagonista da história. Para encontrar uma cura para sua irmã, ele escolheu trilhar o caminho dos Caçadores de Onis. Ele treinou por anos junto do mestre Sakonji Urokodaki antes de participar da seleção para entrar para a Corporação.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-nezuko"> 
+                            <div class="resumo">
+                                <h2>Nezuko Kamado</h2> 
+                                <p>Era apenas um pouco mais nova que Tanjiro quando sua família foi morta pelo misterioso Muzan Kibutsuji, que a transformou em um demônio. A força bruta de Nezuko Kamado foi amplificada com a transformação, que também trouxe um surto de agilidade, resistência e uma sede insaciável por sangue humano.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-zenitsu"> 
+                            <div class="resumo">
+                                <h2>Zenitsu Agatsuma</h2> 
+                                <p>Zenitsu Agatsuma é um Caçador de Demônios que usa a Respiração do Trovão. Treinado pelo ex-hashira Jigoro Kuwajima, nunca confiou nas próprias habilidades, mas seu mestre viu seu potencial. Naturalmente covarde e mulherengo, está sempre fugindo de batalhas, buscando o caminho mais fácil e dando em cima de garotas.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-inosuke">
+                            <div class="resumo">
+                                <h2>Inosuke Hashibira</h2> 
+                                <p>Inosuke Hashibira é um Caçador de Recompensas usuário da Respiração da Besta. Ele cresceu isolado em uma montanha, entre os javalis selvagens e sozinho criou a sua própria Técnica de Respiração, derivada da Respiração do Vento. Por esse motivo, não sabe interagir socialmente e está sempre chamando todo mundo para brigar.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-kanao">
+                            <div class="resumo">
+                                <h2>Kanao Tsuyuri</h2> 
+                                <p>Kanao Tsuyuri é a Tsuguko, a futura Hashira da Respiração das Flores. Ela teve um passado bem abusivo e por isso reprime ao máximo suas emoções. Também não confia em suas próprias escolhas e usa uma moeda quando precisa tomar uma decisão. Acaba se aproximando de Tanjiro com o passar do tempo.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-murata">
+                            <div class="resumo">
+                                <h2>Murata</h2> 
+                                <p>Murata tem uma soberba incompatível com a sua habilidade mediana. Ele é um Caçador de Demônios que sobreviveu ao ataque de um perigoso Kizuki, mas isso por ter fugido quando seus aliados foram controlados. Aparece esporadicamente nos arcos futuros e é um usuário da Respiração de Água.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-urokodaki">
+                            <div class="resumo">
+                                <h2>Sakonji Urokodaki</h2> 
+                                <p>Sakonji Urokodaki é o ex-hashira da Respiração da Água. Ele é um homem de meia-idade, de coração mole, que sempre esconde o rosto por debaixo de uma máscara de Tengu. Ensina para crianças tudo que pode sobre a Respiração na esperança que sobrevivam ao Exame de Caçador de Onis. Entre seus alunos mais notáveis, temos Tanjiro e Giyu.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-tamayo">
+                            <div class="resumo">
+                                <h2>Tamayo</h2> 
+                                <p>Tamayo é uma oni curandeira que Tanjiro encontra na mesma cidade em que vê Muzan Kibutsuji. Por sua natureza pacifista, se recusa a matar humanos para sobreviver e adota uma dieta de sangue descartado. Cuida da Nezuko quando ela precisa e prometeu achar um jeito de curá-la, se o Tanjiro trouxer o sangue de Lua Maiores.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-yushiro">
+                            <div class="resumo">
+                                <h2>Yushiro</h2> 
+                                <p>Yushiro é um oni que foi salvo por Tamayo em seu leito de morte. Desde então, ele fez de seu objetivo de vida servir a oni até a morte. Ele é o principal protetor da médica, ocultando sua presença de todo o mal e combatendo possíveis invasores. Não esconde sua devoção e ataca qualquer um que atente contra sua honra.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-muzan">
+                            <div class="resumo">
+                                <h2>Muzan Kibutsuji</h2> 
+                                <p>Muzan Kibutsuji é o grande vilão de Kimetsu no Yaiba. Foi ele quem assassinou toda a família de Tanjiro e transformou Nezuko em demônio. Ele é, inclusive, o Rei dos Demônios, o primeiro deles. Seu sangue tem o poder de transformar humanos em demônios. Ardiloso, mente, engana e se esconde entre os humanos. É o líder dos Doze Kizuki.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-shinobu">
+                            <div class="resumo">
+                                <h2>Shinobu Kocho</h2> 
+                                <p>Shinobu Kocho é o pilar da Respiração dos Insetos. Sua aparência meiga é compatível com o seu jeito de agir: manso, fofo e delicado. Mas no fundo é tudo falsidade, como uma venenosa borboleta monarca. Ela oferece torturar onis para que paguem por seus pecados, do jeito mais gentil possível. Suas técnicas perfuram, ao invés de cortar, e envenenam os demônios com essência de Glicíneas.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-tomioka">
+                            <div class="resumo">
+                                <h2>Giyu Tomioka</h2> 
+                                <p>Giyu Tomioka é o Pilar da Respiração da Água, pupilo de Urokodaki. Ele tem um jeitão rústico, de poucos amigos, mas é uma pessoa simpática e extremamente justa. É tão poderoso que conseguiu superar seu mestre, criando novas formas da Respiração da Água. Consegue derrotar um onis mantendo a mais pura calma, sem parecer se mover.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-mitsuri">
+                            <div class="resumo">
+                                <h2>Mitsuri Kanroji</h2> 
+                                <p>Mitsuki Kanroji é a Hashira da Respiração do Amor. Ela consegue ver o melhor em cada um e se apaixona por todos. Demonstrações de amor a deixam toda derretidinha. O jeito mais fácil de defini-la é com a canção “Amor de Que”, da Pabllo Vittar. Seus ataques são como um chicote.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-rengoku">
+                            <div class="resumo">
+                                <h2>Kyojuro Rengoku</h2> 
+                                <p>Kyojuro Rengoku é a Hashira de Respiração das Chamas. Ele é empolgado em tudo o que faz, como um labrador humano. Tudo que faz é com uma imensa animação e defende a crença de que os mais fortes tem o dever de proteger os mais fracos. Ele tem um papel crucial no filme Demon Slayer: Mugen Train.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-uzui">
+                            <div class="resumo">
+                                <h2>Tengen Uzui</h2> 
+                                <p>Tengen Uzui é o Hashira da Respiração do Som. Ele é uma pessoa de aparências, que tenta fazer tudo do jeito mais extravagante possível. Mas essa sua preocupação em impressionar é uma resposta a sua baixa auto-estima. Tem três esposas e ataca com duas espadas. Em combate, usa o som dos inimigos para derrotá-los.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-himejima">
+                            <div class="resumo">
+                                <h2>Gyomei Himejima</h2> 
+                                <p>Gyomei Himejima é o Hashira de Respiração da Pedra. Ele segue os ensinamentos budistas e está sempre chorando pela humanidade. Fala com paciência, compaixão e pena por todos, apesar de julgá-los um pouco. Foi o mentor de Shinazugawa e, em combate, luta usando um machado preso a uma maça por uma corrente.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-iguro">
+                            <div class="resumo">
+                                <h2>Obanai Iguro</h2> 
+                                <p>Obanai Iguro é o Hashira de Respiração da Serpente. Ele é impetuoso com aqueles que desviam da conduta por zelar pelo futuro da Corporação acima de tudo, até mesmo de seus companheiros. Está sempre colocando os demais para baixo e ataca com uma espada ondulada usando sua Respiração única.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-shinazugawa">
+                            <div class="resumo">
+                                <h2>Sanemi Shinazugawa</h2> 
+                                <p>Sanemi Shinazugawa é o Hashira da Respiração do Vento. Mas diferente do elemento que é suave e silencioso, ele é violento, barulhento e impulsivo. Seu corpo coberto por cicatrizes é uma prova de seu pavio curto, uma vez que muitas delas foram feitas por ele mesmo.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="card-kagaya">
+                            <div class="resumo">
+                                <h2>Kagaya Ubuyashiki</h2> 
+                                <p>Kagaya Ubuyashiki é o Líder da Corporação de Caçadores de Oni, mais conhecido por seus subordinados como Mestre. Não demonstra suas habilidades de luta, mas mesmo assim é reverenciado por todos os Hashira. Seu tom de voz sereno é capaz de acalmar qualquer um em sua presença. Tem um senso de justiça mais aguçado que o resto da Corporação.</p>
+                                <a href="https://www.legiaodosherois.com.br/2021/kimetsu-no-yaiba-guia-de-personagens-demon-slayer.html" target="_blank">
+                                    <p class="copyright"> &#169; Legião dos Herois </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="avaliacoes">
+                <div class="container">
+                    <h1>AVALIAÇÕES</h1>
+                    
+                    <div class="comentario-box">
+                        <div class="comentario">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.</p>
+                            <img src="img/demon-slayer-icon.png" alt="ícone de Demon Slayer">
+                            <div class="comentario-user">
+                                <span>Lorem</span>
+                                <span>Fã de Demon Slayer</span>
+                            </div>
+                        </div>
+        
+                        <div class="comentario">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.</p>
+                            <img src="img/demon-slayer-icon.png" alt="ícone de Demon Slayer">
+                            <div class="comentario-user">
+                                <span>Ipsum</span>
+                                <span>Fã de Demon Slayer</span>
+                            </div>
+                        </div>
+        
+                        <div class="comentario">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam enim inventore ipsam cupiditate iste voluptatibus suscipit! Distinctio odit nesciunt nostrum dolor reiciendis iste ipsa, eum rerum corporis fugit et.</p>
+                            <img src="img/demon-slayer-icon.png" alt="ícone de Demon Slayer">
+                            <div class="comentario-user">
+                                <span>Dolor</span>
+                                <span>Fã de Demon Slayer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="comentario">
+                <div class="comentario-usuario">
+                    <h3>Já assistiu Kimetsu no Yaiba? Conte para a gente o que você achou!</h3>
+                    <form>
+                        <textarea name="nome" placeholder="Seu nome" class="input-nome" required></textarea>
+                        <textarea name="comentario" class="input-comentario" placeholder="Seu comentário" required></textarea>
+                        <button type="submit">ENVIAR</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="credito">
+                <span><a href="https://github.com/codeestefane" target="_blank">Feito com <span class="heart">&#10084;</span> por <span>codeestefane</span></a></span>
+            </div>
+        </footer>
+
+    </body>
+</html>

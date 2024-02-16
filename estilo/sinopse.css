@@ -1,0 +1,146 @@
+#sinopse {
+    height: fit-content;
+    background: rgba(75, 45, 45, 0.9);
+    z-index: 1;
+}
+
+#sinopse div.bg-kimetsu {
+    height: fit-content;
+    background-image: url(https://wallpapers.com/downloads/high/demon-slayer-pictures-tsbyd3y88kxirm15.webp);
+    background-size: cover;
+    background-position: 50%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#sinopse div.bg-opacidade {
+    height: fit-content;
+
+    background: rgba(75, 45, 45, 0.9);
+    
+    display: flex;
+
+    z-index: 3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sinopse div.conteudo {
+    /* dimensões */
+    width: 70%;
+    height: fit-content;
+    overflow: hidden;
+
+    margin: 30px auto;
+    
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* estilo */
+    border-radius: 20px;
+    background: #A89999;
+}
+
+#sinopse div.poster {
+    /* dimensões */
+    width: 60%;
+    height: fit-content;
+
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+}
+
+#sinopse div.poster img {
+    width: 100%;
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+    z-index: 4;
+}
+
+#sinopse div.poster img:hover {
+    transform: translate(-3%, 6%) rotate(5deg) scale(1.3);
+    cursor: pointer;
+}
+
+#sinopse div.texto {
+    width: 60%;
+    text-align: justify;
+}
+
+#sinopse div.texto h1, #sinopse div.texto p {
+    padding: 12px 32px 12px 32px;
+}
+
+#sinopse div.texto h1 {
+    color: var(--marrom-kimetsu);
+    text-shadow: 2px 1px var(--text-shadow-kimetsu);
+}
+
+#sinopse div.texto p {
+    font-size: 1.5rem;
+}
+
+#sinopse div.texto p::first-letter {
+    /* estilo */
+    color: var(--marrom-kimetsu);
+    text-shadow: 2px 1px var(--text-shadow-kimetsu);
+    font-weight: bold;
+    font-size: 4rem;
+
+    float: left;
+
+    display: block;
+    padding: 0 10px 5px 0;
+}
+
+@media all and (min-width: 320px) and (max-width: 1360px) {
+
+    #sinopse, #sinopse div.bg-kimetsu, #sinopse div.bg-opacidade {
+        height: fit-content;
+    }
+    
+    #sinopse div.conteudo {
+        width: 85%;
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+    }
+
+    #sinopse div.texto {
+        padding: 5px;
+    }
+
+    #sinopse div.texto p {
+        font-size: 1rem;
+    }
+
+    #sinopse div.poster {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #sinopse div.poster img:hover {
+        transform: scale(1.3);
+    }
+    
+    #sinopse div.texto {
+        width: 100%;
+    }
+    
+    #sinopse div.texto h1 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+}
+
+@media all and (min-width: 380px) and (max-width: 720px) {
+
+}

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Demon Slayer';
+    /* usa-se dois pontos para entrar em uma pasta que está fora da pasta atual */
+    src: url('../fonts/bloodcrow.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@keyframes animarBotaoInicio {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+:root {
+    /* cores */
+    --branco: #FFF;
+    --bg-header: #873841;
+    --hover-opcoes-header: #eeeeed;
+
+    --marrom-kimetsu: #4b2d2d;
+    --text-shadow-kimetsu: rgba(255, 255, 255, 0.2);
+
+    /* fontes */
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    /* reset */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-padrao);
+}
+
+h1::selection, p::selection, span::selection, h2::selection, h3::selection, a::selection, button::selection {
+    background: #A58972;
+}
+
+img::selection {
+    background: transparent;
+}

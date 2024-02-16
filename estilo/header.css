@@ -1,0 +1,201 @@
+header nav.navbar-heading {
+    /* dimensões */
+    width: 100%;
+    height: 15vh;
+    max-height: 150px;
+
+    /* posição */
+    position: fixed;
+    top: 0;
+    z-index: 6;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* estilo */
+    background: var(--bg-header);
+}
+
+header input.menu {
+    visibility: hidden;
+    width: 50px;
+    height: 50px;
+    z-index: 6;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+header nav.navbar-heading .navbar-componentes {
+    /* dimensões */
+    height: fit-content;
+    width: 80%;
+    
+    /* box model */
+    padding: 20px 0;
+    
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header nav.navbar-heading div.navbar-componentes img {
+    /* dimensões */
+    width: 80px;
+
+    /* posição */
+    z-index: 6;
+
+}
+
+header nav.navbar-heading div.navbar-componentes ul {
+    /* dimensões */
+    width: 60%;
+
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+
+    /* estilo */
+    list-style-type: none;
+
+}
+
+header nav.navbar-heading div.navbar-componentes ul li {
+    /* box model */
+    padding: 10px;
+
+    /* camadas */
+    z-index: 5;
+
+    /* efeitos de transição */
+    transition: all 500ms ease-in-out;
+}
+
+header nav.navbar-heading div.navbar-componentes ul li a {
+    /* estilo */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: initial;
+
+    /* efeitos de transição */
+    transition: all 500ms ease-in-out;
+
+    z-index: 5;
+}
+
+header nav.navbar-heading div.navbar-componentes ul li a:visited {
+    color: initial;
+}
+
+header nav.navbar-heading  div.navbar-componentes ul li:hover {
+    /* transformação */
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+
+header nav.navbar-heading  div.navbar-componentes ul li a:hover {
+    /* estilo */
+    color: var(--hover-opcoes-header);
+}
+
+header input.close-menu {
+    display: none;
+}
+
+@media all and (max-width: 960px) and (min-width: 320px) {
+
+   header label.close-menu-label::after {
+        content: '☰';
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        
+        background: var(--bg-header);
+        color: #FFF;
+        font-size: 2rem;
+        line-height: 2rem;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        padding: 0.5rem;
+        cursor: pointer;
+   }
+
+   header nav.navbar-heading .navbar-componentes {
+       flex-direction: column;
+       height: 100vh;
+       align-items: center;
+       justify-content: center;
+       margin: 0 auto;
+       background: var(--bg-header);
+    }
+    
+    header nav.navbar-heading {
+        height: 100vh;
+        max-height: 100vh;
+        display: none;
+        z-index: 5;
+        background: var(--bg-header);
+    }
+
+    header .close-menu:checked~aside>nav.navbar-heading {
+       display: block;
+    }
+
+    header .close-menu:checked~.close-menu-label::after {
+       content: '×';
+       position: fixed;
+       z-index: 7;
+       top: 0;
+       right: 0;
+       
+       background: var(--bg-header);
+       color: #FFF;
+       font-size: 2rem;
+       line-height: 2rem;
+       width: 2rem;
+       height: 2rem;
+       text-align: center;
+       padding: 0.5rem;
+       cursor: pointer;
+    }
+
+    header nav.navbar-heading div.navbar-componentes ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header nav.navbar-heading div.navbar-componentes img {
+        margin-bottom: 60px;
+    }
+}
+
+@media all and (min-width: 960px) and (max-width: 1400px) {
+
+    header nav.navbar-heading div.navbar-componentes ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media all and (min-width: 1600px) {
+
+    header nav.navbar-heading div.navbar-componentes ul li {
+        padding: 20px;
+    }
+
+    header nav.navbar-heading div.navbar-componentes ul li a {
+        font-size: 1.5rem;
+    }
+    
+    header nav.navbar-heading div.navbar-componentes img {
+        width: 7rem;
+    }
+}

@@ -1,0 +1,36 @@
+footer {
+    height: 10vh;
+    width: 100%;
+    background: #D1C5C5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .credito {
+    width: 40%;
+    text-align: center;
+    transition: all 600ms ease-in-out;
+}
+
+footer .credito span a span+span {
+    font-weight: bold;
+}
+
+footer .credito:hover {
+    transform: scale(1.2);
+}
+
+footer .credito span {
+    transition: all 600ms ease-in-out;
+}
+
+footer .credito:hover span a span.heart {
+    color: #873841;
+}
+
+footer .credito a {
+    text-decoration: none;
+    color: initial;
+}
+

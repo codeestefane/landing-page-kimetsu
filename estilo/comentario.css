@@ -1,0 +1,124 @@
+#comentario {
+    width: 100%;
+    height: fit-content;
+    background:  #4b2d2d;
+    display: flex;
+    align-items: center;
+}
+
+#comentario .comentario-usuario {
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:  #D1C5C5;
+    border-radius: 80px;
+    text-transform: uppercase;
+} 
+
+#comentario .comentario-usuario form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#comentario .comentario-usuario form textarea.input-nome {
+    height: 40px;
+    margin: 30px 0 10px 0;
+    background: #775454;
+    border: none;
+    color:  rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 8px rgba(0,0,0, 0.8);
+    border-radius: 20px;
+}
+
+#comentario .comentario-usuario form textarea.input-nome::placeholder {
+    color:  rgba(255, 255, 255, 0.6);
+}
+
+#comentario .comentario-usuario h3 {
+    color: #000;
+    text-align: justify;
+    font-size: 1em;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.5); 
+}
+
+#comentario .comentario-usuario form textarea {
+    border: none;
+    height: 200px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #775454;
+    color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 8px rgba(0,0,0, 0.8);
+    border-radius: 20px;
+}
+
+
+#comentario .comentario-usuario form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+#comentario .comentario-usuario form button {
+    width: 120px;
+    height: 60px;
+    color: #4b2d2d;
+    font-weight: bold;
+    font-size: 0.7em;
+    border-radius: 40px;
+    border: none;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 2px 8px rgba(0,0,0, 0.8);
+    margin-top: 10px;
+    transition: all 600ms ease-in-out;
+}
+
+#comentario .comentario-usuario form button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background: rgba(0,0,0, 0.8);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media all and (min-width: 320px) and (max-width: 800px) {
+    #comentario .comentario-usuario {
+        width: 90%;
+        padding-top: 0px;
+        font-size: 0.7rem;
+    }
+
+    #comentario .comentario-usuario form {
+        width: 100%;
+        padding: 10px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #comentario .comentario-usuario h3 {
+        width: 80%;
+        font-size: 0.9rem;
+        padding-top: 20px;
+    }
+
+    #comentario .comentario-usuario form textarea  {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    #comentario .comentario-usuario form button {
+        width: 150px;
+        height: 75px;
+        font-size: 0.8rem;
+    }
+}
