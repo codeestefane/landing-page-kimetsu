@@ -44,7 +44,6 @@ Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-comp
 ## ⚙️ Configuração de páginas:
 Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
 
-
 >  **_Título:_** listar-projetos  
 > **_Template:_** listar-projetos  
 > **_Slug:_** listar-projetos   
