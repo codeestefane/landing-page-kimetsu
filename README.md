@@ -24,7 +24,7 @@ docker-compose up -d
 docker-compose down
 ```  
 
-> [!TIP]
+> [!NOTE]
 > Ao subir os containers uma vez, o projeto será mapeado para os volumes especificados, então todas as atualizações feitas no código-fonte serão refletidas nos destinos fornecidos.
 
 ## 📌 Como acessar:
@@ -58,5 +58,5 @@ Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na
 >**_Template:_** projetos-destaque  
 >**_Slug:_**  projetos-destaque  
 
-> [!TIP]
+> [!IMPORTANT]
 > Se a URL criada para cada página não tiver o seguinte formato: http://localhost:8000/nome-slug/, acesse **Configurações > Links permanentes** e selecione a opção **“Nome do post”**.
