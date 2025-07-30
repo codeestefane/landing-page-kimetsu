@@ -43,7 +43,7 @@ Caso queira acessar diretamente as configurações do Wordpress, basta acessar o
 Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-compose`` tiver sido executado, o tema do projeto já estará disponível. Basta acessar **Preferências > Tema** e ativar o tema **MDIO Rotaract Brasil**. 
 
 ---
-Além disso, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
+Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
 
 
 >  **_Título:_** listar-projetos  
