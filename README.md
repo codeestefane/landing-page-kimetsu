@@ -19,7 +19,7 @@ docker-compose --version
 docker-compose up -d
 ```
 
-> Para interromper a execução dos containers
+> Para interromper a execução dos containers.
 ```
 docker-compose down
 ```  
@@ -44,19 +44,17 @@ Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-comp
 ## ⚙️ Configuração de páginas:
 Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
 
->  **_Título:_** listar-projetos  
-> **_Template:_** listar-projetos  
-> **_Slug:_** listar-projetos   
+1. **_Título:_** listar-projetos  
+**_Template:_** listar-projetos  
+**_Slug:_** listar-projetos   
 
+2. **_Título:_** onde-estamos  
+**_Template:_** buscar-clube  
+**_Slug:_** onde-estamos  
 
-> **_Título:_** onde-estamos  
-> **_Template:_** buscar-clube  
-> **_Slug:_** onde-estamos  
-
-
->**_Título:_** projetos-destaque  
->**_Template:_** projetos-destaque  
->**_Slug:_**  projetos-destaque  
+3. **_Título:_** projetos-destaque  
+**_Template:_** projetos-destaque  
+**_Slug:_**  projetos-destaque  
 
 > [!IMPORTANT]
 > Se a URL criada para cada página não tiver o seguinte formato: http://localhost:8000/nome-slug/, acesse **Configurações > Links permanentes** e selecione a opção **“Nome do post”**.
