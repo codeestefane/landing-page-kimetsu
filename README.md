@@ -39,7 +39,7 @@ Ao acessar o Wordpress, podem ser utilizadas as credenciais fornecidas no ``dock
 
 Caso queira acessar diretamente as configurações do Wordpress, basta acessar o seguinte link: http://localhost:8000/wp-admin/
 
-Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-compose`` tiver sido executado, o tema do projeto já estará disponível. Basta acessar **Preferências > Tema** e ativar o tema **MDIO Rotaract Brasil**. 
+Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-compose`` tiver sido executado, o tema do projeto já estará disponível. Basta acessar **Aparência > Tema** e ativar o tema **MDIO Rotaract Brasil**. 
 
 ## ⚙️ Configuração de páginas:
 Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
@@ -59,4 +59,4 @@ Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na
 >**_Slug:_**  projetos-destaque  
 
 > [!TIP]
-> Se a URL criada para cada página não tiver o seguinte formato: http://localhost:8000/nome-slug/, acesse **Settings > Permalink > Permalink structure** e selecione a opção **“Post Name”**. 
+> Se a URL criada para cada página não tiver o seguinte formato: http://localhost:8000/nome-slug/, acesse **Configurações > Links permanentes** e selecione a opção **“Nome do post”**.
