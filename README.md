@@ -12,7 +12,7 @@ O site Rotaract Brasil utiliza um arquivo ``docker-compose`` para gerenciar e ex
 ```
 docker-compose --version
 ```
-## ⚙️ Como usar:
+## ⚙️ Como executar:
 É possível executar o arquivo ``docker-compose`` tanto pelo terminal quanto pelo aplicativo Docker. Independentemente do local escolhido, os comandos utilizados são os seguintes:
 * Para ler o arquivo ``docker-compose.yml``, subir todos os containers especificados (wordpress, database e phpmyadmin) e liberar o terminal para outras aplicações
 ```
