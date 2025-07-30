@@ -8,18 +8,18 @@ O site Rotaract Brasil utiliza um arquivo ``docker-compose`` para gerenciar e ex
 * adicioná-lo ao PATH do seu sistema.  
   
 > [!TIP]
-> Para saber se o seu sistema está reconhecendo o comando ``docker-compose``, execute a linha abaixo no terminal.
+> Para saber se o seu sistema está reconhecendo o comando ``docker-compose``, execute a linha abaixo no terminal:
 ```
 docker-compose --version
 ```
 ## ⚙️ Como executar:
 É possível executar o arquivo ``docker-compose`` tanto pelo terminal quanto pelo aplicativo Docker. Independentemente do local escolhido, os comandos utilizados são os seguintes:
-> Para ler o arquivo ``docker-compose.yml``, subir todos os containers especificados (wordpress, database e phpmyadmin) e liberar o terminal para outras aplicações.
+1. Para ler o arquivo ``docker-compose.yml``, subir todos os containers especificados (wordpress, database e phpmyadmin) e liberar o terminal para outras aplicações.
 ```
 docker-compose up -d
 ```
 
-> Para interromper a execução dos containers.
+2. Para interromper a execução dos containers.
 ```
 docker-compose down
 ```  
@@ -32,7 +32,7 @@ Os containers podem ser acessados na porta especificada para cada um deles.
 * **Wordpress:** http://localhost:8000
 * **PhpMyAdmin:** (interface do banco de dados):  http://localhost:8080  
   
-> [!TIP]
+> [!IMPORTANT]
 > Caso ocorra conflito de porta, basta alterar os valores no arquivo ``docker-compose``.
 
 Ao acessar o Wordpress, podem ser utilizadas as credenciais fornecidas no ``docker-compose``. 
