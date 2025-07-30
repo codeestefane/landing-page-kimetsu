@@ -14,12 +14,12 @@ docker-compose --version
 ```
 ## ⚙️ Como usar:
 É possível executar o arquivo ``docker-compose`` tanto pelo terminal quanto pelo aplicativo Docker. Independentemente do local escolhido, os comandos utilizados são os seguintes:
-* lê o arquivo ``docker-compose.yml``, sobe todos os containers especificados (wordpress, database e phpmyadmin) e libera o terminal para outras aplicações;
+* Para ler o arquivo ``docker-compose.yml``, subir todos os containers especificados (wordpress, database e phpmyadmin) e liberar o terminal para outras aplicações;
 ```
 docker-compose up -d
 ```
 
-* interrompe a execução dos containers;
+* Para interromper a execução dos containers.
 ```
 docker-compose down
 ```  
