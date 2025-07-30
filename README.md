@@ -27,7 +27,7 @@ docker-compose down
 > [!TIP]
 > Ao subir os containers uma vez, o projeto será mapeado para os volumes especificados, então todas as atualizações feitas no código-fonte serão refletidas nos destinos fornecidos.
 
----
+## 📌 Como acessar:
 Os containers podem ser acessados na porta especificada para cada um deles.
 * **Wordpress:** http://localhost:8000
 * **PhpMyAdmin:** (interface do banco de dados):  http://localhost:8080  
@@ -35,14 +35,13 @@ Os containers podem ser acessados na porta especificada para cada um deles.
 > [!TIP]
 > Caso ocorra conflito de porta, basta alterar os valores no arquivo ``docker-compose``.
 
----
 Ao acessar o Wordpress, podem ser utilizadas as credenciais fornecidas no ``docker-compose``. 
 
 Caso queira acessar diretamente as configurações do Wordpress, basta acessar o seguinte link: http://localhost:8000/wp-admin/
 
 Se a instalação do Docker foi realizada corretamente e o arquivo ``docker-compose`` tiver sido executado, o tema do projeto já estará disponível. Basta acessar **Preferências > Tema** e ativar o tema **MDIO Rotaract Brasil**. 
 
----
+## ⚙️ Configuração de páginas:
 Por fim, no painel do Wordpress, você deve configurar as páginas utilizadas na aplicação. Acesse **Páginas > Adicionar Página** e crie as seguintes páginas:
 
 
