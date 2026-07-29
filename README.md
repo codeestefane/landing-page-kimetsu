@@ -1,4 +1,4 @@
-# Landing Page Demon Slayer <img width="94" alt="demonslayer" src="https://github.com/user-attachments/assets/709d628f-5bfc-41f6-9f1d-401c737f1299" />
+# Landing Page Demon Slayer
 
 
 Projeto desenvolvido para entretenimento pessoal! =)
