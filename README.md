@@ -1,4 +1,5 @@
-# Landing Page Demon Slayer
+# Landing Page Demon Slayer <img width="128" height="128" alt="demonslayer-inosukeq" src="https://github.com/user-attachments/assets/61fab80d-e818-44d1-b755-0af0fe33be37" />
+
 
 Projeto desenvolvido para entretenimento pessoal! =)
 
